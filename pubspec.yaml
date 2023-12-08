@@ -1,0 +1,61 @@
+name: sabika2
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  #local_storage
+  get_storage:
+  shared_preferences:
+  #state_management
+  flutter_bloc:
+  bloc:
+  get:
+  #format_time
+  intl:
+
+  flutter_onboard:
+  flutter_staggered_grid_view:
+  carousel_slider:
+  image_picker:
+  conditional_builder_null_safety:
+#  sqflite:
+  flutter_otp_text_field:
+#  fluttertoast:
+  dio:
+  buttons_tabbar:
+  rename:
+  awesome_dio_interceptor:
+  floating_navbar:
+  font_awesome_flutter:
+  ionicons: ^0.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Tajawal
+      fonts:
+        - asset: assets/fonts/Tajawal/Tajawal-Regular.ttf
